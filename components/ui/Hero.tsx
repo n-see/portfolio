@@ -1,7 +1,5 @@
 import { Spotlight } from "./Spotlight"
 
-Spotlight
-
 const Hero = () => {
   return (
     <>
