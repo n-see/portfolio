@@ -3,13 +3,13 @@
 import { ReactNode } from "react"
 
 const MagicButton = ({
-  title, icon, position, handleClick, otherClasses
+  title, icon, position, otherClasses
 
 }: {
   title: string,
   icon: ReactNode,
   position: string,
-  handleClick?: () => void,
+  // handleClick?: () => void,
   otherClasses?: string;
 }) => {
   return (
