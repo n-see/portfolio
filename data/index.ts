@@ -8,8 +8,8 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "AI Chatbot for Customer Support",
-      description: "Enhancing client communication with AI-driven chat automation.",
+      title: "",
+      description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Real-Time Weather Dashboard",
-      description: "Displaying live weather updates and forecasts globally.",
+      title: "Neo See",
+      description: "I am a Full Stack Developer",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My Developer Stack",
-      description: "Improving code quality using AI-based suggestions and analysis.",
+      title: "My Skill Set",
+      description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -59,8 +59,8 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Contact me",
-      description: "Access coding tutorials, challenges, and mentorship in one place.",
+      title: "Contact Me",
+      description: "Email: nseedev@gmail.com Phone: (209) 227-3435",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",

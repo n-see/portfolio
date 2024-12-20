@@ -28,13 +28,13 @@ const Hero = () => {
         </div>
         <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center">
-                <h2 className="uppercase tracking-widest text-xs text-center text-blue-400 max-w-80">Witchy black Magic with Next.js</h2>
+                <h2 className="uppercase tracking-widest text-xs text-center text-blue-400 max-w-80">Developed with Next.js</h2>
                 <TextGenerateEffect
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
                     words="Hey there! I'm your friendly neighborhood code instructor"
                 />
-                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, I&apos;am Neo a Full Stack Developer based in the Central Valley</p>
-                <a href="#about"><MagicButton position="right" title="My Projects" icon={<GoProjectRoadmap />}/></a>
+                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, I&apos;m Neo a Full Stack Developer based in the Central Valley</p>
+                <a href="#projects"><MagicButton position="right" title="My Projects" icon={<GoProjectRoadmap />}/></a>
             </div>
 
         </div>
