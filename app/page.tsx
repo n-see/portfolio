@@ -4,6 +4,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { SignupFormDemo } from "@/components/ui/ContactForm";
 
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import Footer from "@/components/ui/Footer";
 import Hero from "@/components/ui/Hero";
 import { navItems } from "@/data";
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Grid/>
       <RecentProjects/>
       <SignupFormDemo/>
+      <Footer/>
     </div>
    </main>
   );
