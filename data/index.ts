@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Seite Site",
       des: "Seite is a IEP management system. Users are able to manage student caseloads and academic progress.",
-      img: "/seite img.svg",
+      img: "/Seite img.svg",
       iconLists: ["/re.svg", "/ts.svg",  "/css-3-svgrepo-com.svg", "dotnet-svgrepo-com.svg",  "c--4.svg", "chakra-ui-icon.svg" , "React Bootstrap.svg" ],
       link: "https://new-seite-client-fimt.vercel.app",
     },
