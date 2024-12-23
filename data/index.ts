@@ -59,8 +59,8 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Contact Me",
-      description: "Email: nseedev@gmail.com Phone: (209) 227-3435",
+      title: "GitHub Repository",
+      description: "See all of my previous projects",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
