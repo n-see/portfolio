@@ -3,9 +3,8 @@ import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { BackgroundLines } from "./BackgroundLines";
 import Lottie from "react-lottie";
-import { useState } from "react";
 import animationData from '@/data/confetti.json';
-import { IoCopyOutline } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa";
 import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
@@ -50,11 +49,10 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
 
-  const [copied, setCopied] = useState(false);
+
 
   const handleCopy = () => {
-    navigator.clipboard.writeText('nseedev@gmail.com');
-    setCopied(true);
+    window.open('https://github.com/n-see')
   }
 
   return (
@@ -106,11 +104,11 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight text-neutral-200 text-sm md:text-xs lg:text-base z-10">
-            {description}
-          </div>
           <div className="font-sans font-bold text-lg text-neutral-200 lg:text-3xl max-w-96 z-10">
             {title}
+          </div>
+          <div className="font-sans font-extralight text-neutral-200 text-sm md:text-xs lg:text-base z-10">
+            {description}
           </div>
           {id === 2 && (
             <BackgroundLines>
@@ -161,8 +159,8 @@ export const BentoGridItem = ({
               <div className="absolute -bottom-5 right-0">
                 <Lottie
                   options={{
-                    loop: copied,
-                    autoplay:copied,
+                    loop: true,
+                    autoplay:true,
                     animationData,
                     rendererSettings: {
                       preserveAspectRatio: "xMidYMid slice",
@@ -172,8 +170,8 @@ export const BentoGridItem = ({
                 />
               </div>
                 <MagicButton
-                title={copied ? 'Email Copied': "Copy my Email"}
-                icon={<IoCopyOutline/>}
+                title="GitHub"
+                icon={<FaGithub />}
                 position="left"
                 otherClasses="!bg-[#161e31] z-10"
                 handleClick={handleCopy}

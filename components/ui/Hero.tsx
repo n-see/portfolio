@@ -31,7 +31,7 @@ const Hero = () => {
                 <h2 className="uppercase tracking-widest text-xs text-center text-blue-400 max-w-80">Developed with Next.js</h2>
                 <TextGenerateEffect
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                    words="Hey there! I'm your friendly neighborhood code instructor"
+                    words="Hey there! I'm your friendly neighborhood full stack developer"
                 />
                 <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">Hi, I&apos;m Neo a Full Stack Developer based in the Central Valley</p>
                 <a href="#projects"><MagicButton position="right" title="My Projects" icon={<GoProjectRoadmap />}/></a>
