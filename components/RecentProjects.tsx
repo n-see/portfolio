@@ -6,7 +6,7 @@ const RecentProjects = () => {
   return (
     <>
         <div className='py-20' id='projects'>
-            <h1 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>A small selection of <span className='text-purple'>recent projects</span>
+            <h1 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white'>My <span className='text-purple'>recent projects</span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-16 mt-10'>
                 {projects.map(({title, des, img, iconLists, id, link}) => (

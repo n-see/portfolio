@@ -49,8 +49,8 @@ export const navItems = [
   
     {
       id: 5,
-      title: "About Me",
-      description: "I am a motivate developer with knowledge in both front-end and back-end code.",
+      title: "Certification",
+      description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",

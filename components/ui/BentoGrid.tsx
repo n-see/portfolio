@@ -156,20 +156,82 @@ export const BentoGridItem = ({
                 icon={<FaFileAlt />}
                 position="left"
                 otherClasses="!bg-[#161e31] z-10"
-                handleClick={() =>
-                  window.open("./Ashton Neo See Software Resume.pdf")
-                }
+                handleClick={() => window.open("./Neo See Software Resume.pdf")}
               />
             </div>
           )}
-          {/* {id == 5 && (
+          {id == 5 && (
             <>
-           
-              <div className="flex flex-row">
-                <img src="/profile.png" className="w-10 h-10"/>
+              <div className="flex gap-10">
+                <div className="flex flex-col gap-3">
+                  <MagicButton
+                    title="CodeStack Academy"
+                    icon=""
+                    position="left"
+                    otherClasses="!bg-[#161e31] z-10"
+                    // handleClick={() =>
+                    //   window.open("./NeoSee's profile _ Codecademy CSS.pdf")
+                    // }
+                  />
+
+                  <MagicButton
+                    title="Codecademy HTML"
+                    icon=""
+                    position="left"
+                    otherClasses="!bg-[#161e31] z-10"
+                    handleClick={() =>
+                      window.open("./NeoSee's profile _ Codecademy HTML.pdf")
+                    }
+                  />
+
+                  <MagicButton
+                    title="Codecademy CSS"
+                    icon=""
+                    position="left"
+                    otherClasses="!bg-[#161e31] z-10"
+                    handleClick={() =>
+                      window.open("./NeoSee's profile _ Codecademy CSS.pdf")
+                    }
+                  />
+                </div>
+                <div className="flex flex-col gap-3">
+                  <MagicButton
+                    title="Bay Valley Content Management"
+                    icon=""
+                    position="left"
+                    otherClasses="!bg-[#161e31] z-10"
+                    handleClick={() =>
+                      window.open(
+                        "./Bay Valley Basic Content Management Systems Module.pdf"
+                      )
+                    }
+                  />
+
+                  <MagicButton
+                    title="Bay Valley HTML"
+                    icon=""
+                    position="left"
+                    otherClasses="!bg-[#161e31] z-10"
+                    handleClick={() =>
+                      window.open(
+                        "./Bay Valley Introduction to HTML Module.pdf"
+                      )
+                    }
+                  />
+
+                  <MagicButton
+                    title="Bay Valley CSS"
+                    icon=""
+                    position="left"
+                    otherClasses="!bg-[#161e31] z-10"
+                    handleClick={() =>
+                      window.open("./Bay Valley Responsive CSS Module.pdf")
+                    }
+                  />
+                </div>
               </div>
             </>
-          )} */}
+          )}
 
           {id == 6 && (
             <div className="mt-5 relative ">
