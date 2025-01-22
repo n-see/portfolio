@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='container flex flex-nowrap justify-between align-middle mb-3 mt-3'>
         
             <div className="">
-                <a href='./Ashton Neo See Software Resume.pdf' target='blank'>
+                <a href='./Neo See Software Resume.pdf' target='blank'>
                     Resume
                 </a>
             </div>
