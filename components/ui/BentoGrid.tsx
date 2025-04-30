@@ -169,9 +169,9 @@ export const BentoGridItem = ({
                     icon=""
                     position="left"
                     otherClasses="!bg-[#161e31] z-10"
-                    // handleClick={() =>
-                    //   window.open("./NeoSee's profile _ Codecademy CSS.pdf")
-                    // }
+                    handleClick={() =>
+                      window.open("./CodeStack Certification.pdf")
+                    }
                   />
 
                   <MagicButton
